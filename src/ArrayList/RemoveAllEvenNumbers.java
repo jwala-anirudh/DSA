@@ -19,7 +19,7 @@ public class RemoveAllEvenNumbers {
             }
         }
 
-        for (Integer x: arr) {
+        for (Integer x : arr) {
             System.out.print(x + " ");
         }
     }

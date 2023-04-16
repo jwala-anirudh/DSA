@@ -2,7 +2,7 @@ package Arrays;
 
 /**
  * Write an algorithm to print all the sub-arrays of an array
- *
+ * <p>
  * sub-arrays: A sub-array is a contiguous part of array
  */
 public class SubArraysOfArray {
