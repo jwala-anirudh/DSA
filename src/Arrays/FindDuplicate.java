@@ -1,5 +1,8 @@
 package Arrays;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -55,6 +58,35 @@ public class FindDuplicate {
                 }
             }
         }
+    }
+
+    static ArrayList<Integer> findDuplicate02(int[] arr, int n) {
+        ArrayList<Integer> result = new ArrayList<>();
+        HashMap<Integer, Integer> frequency = new HashMap<>();
+
+        for (int j : arr) {
+            if (frequency.containsKey(j)) {
+                int prevCount = frequency.get(j);
+                frequency.put(j, ++prevCount);
+            } else {
+                frequency.put(j, 1);
+            }
+        }
+
+        for (Integer number : frequency.keySet()) {
+            Integer occurrences = frequency.get(number);
+            if (occurrences > 1) {
+                result.add(number);
+            }
+        }
+
+        Collections.sort(result);
+
+        if (result.size() == 0) {
+            result.add(-1);
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
