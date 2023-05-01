@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 
 public class LeetCode709 {
     public String toLowerCase(String s) {

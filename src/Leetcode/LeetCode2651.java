@@ -1,4 +1,4 @@
-package Mathematics;
+package Leetcode;
 
 public class LeetCode2651 {
     public int findDelayedArrivalTime(int arrivalTime, int delayedTime) {

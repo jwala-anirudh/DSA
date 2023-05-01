@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode;
 
 public class LeetCode485 {
     public int findMaxConsecutiveOnes(int[] nums) {

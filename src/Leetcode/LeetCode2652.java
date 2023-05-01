@@ -1,4 +1,4 @@
-package Mathematics;
+package Leetcode;
 
 public class LeetCode2652 {
     public int sumOfMultiples(int n) {

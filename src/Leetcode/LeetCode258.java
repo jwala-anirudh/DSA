@@ -1,4 +1,4 @@
-package Mathematics;
+package Leetcode;
 
 /**
  * Given an integer num, repeatedly add all its digits until the

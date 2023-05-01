@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode;
 
 public class LeetCode198 {
     public int rob(int[] houses) {

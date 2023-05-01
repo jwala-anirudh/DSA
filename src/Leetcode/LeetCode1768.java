@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 
 /**
  * You are given two strings word1 and word2.
