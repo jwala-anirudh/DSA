@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 
 public class LeetCode28 {
     public int strStrBruteForce(String haystack, String needle) {
