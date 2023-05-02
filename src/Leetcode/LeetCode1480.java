@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode;
 
 /**
  * Given an array nums. We define a running sum of an array as

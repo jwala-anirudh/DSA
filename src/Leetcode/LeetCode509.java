@@ -1,4 +1,4 @@
-package Recursion;
+package Leetcode;
 
 public class LeetCode509 {
     public int fib(int n) {
