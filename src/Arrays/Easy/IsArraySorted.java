@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class IsArraySorted {
     boolean arraySortedOrNot(int[] arr, int n) {

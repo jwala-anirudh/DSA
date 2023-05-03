@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode;
 
 public class LeetCode75 {
     public void sortColors(int[] a) {
