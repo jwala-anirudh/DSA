@@ -2,6 +2,8 @@
 
 Welcome to the Java Data Structures and Algorithms repository!
 
+## TLDR; check `src` folder for code
+
 This repository contains a collection of Data Structures and Algorithms implemented in Java, along with LeetCode solutions and personal learning notes. All the code in this repository is open-source and available for anyone to use or contribute to.
 
 The Data Structures included in this repository are:
