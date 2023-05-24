@@ -16,8 +16,6 @@ package Leetcode;
  * You must solve it in O(log(arr.length)) time complexity.
  */
 public class LeetCode852 {
-
-    // Approach 1
     public int peakIndexInMountainArray(int[] arr) {
         int left = 0;
         int right = arr.length - 1;
@@ -38,29 +36,4 @@ public class LeetCode852 {
 
         return result;
     }
-
-    // Approach 2
-    public int peakIndexInMountainArray2(int[] arr) {
-        int start = 0;
-        int end = arr.length - 1;
-
-        while (start <= end) {
-            int mid = start + ((end - start) / 2);
-
-            if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1]) {
-                // This is what we are looking for ---> arr[mid - 1] < arr[mid] > arr[mid + 1]
-                return mid;
-            } else if (arr[mid] > arr[mid - 1] && arr[mid] < arr[mid + 1]) {
-                // arr[mid - 1] < arr[mid] < arr[mid + 1]
-                // Value can be present in the right
-                start = mid + 1;
-            } else {
-                // Value can be present in the left
-                end = mid - 1;
-            }
-        }
-
-        return -1;
-    }
-
 }
