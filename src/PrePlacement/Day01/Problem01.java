@@ -45,7 +45,8 @@ public class Problem01 {
      * In the end, after one complete round of comparison
      * return the min and max
      *
-     * Time complexity --> O(N)
+     * Time complexity : O(N)
+     * Space complexity: O(N)
      */
     int[] getMinMax(int[] arr, int n) {
         int min = 0, max = 0;

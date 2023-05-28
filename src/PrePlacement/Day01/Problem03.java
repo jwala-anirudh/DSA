@@ -8,6 +8,8 @@ package PrePlacement.Day01;
  */
 public class Problem03 {
     /*
+     * Algorithm
+     * ==============
      * 1) While going through numbers, we have to keep track
      * of maximum_product up till that number
      *
@@ -15,13 +17,13 @@ public class Problem03 {
      *
      * 2) max_so_far = Max(
      *      max_so_far * current,
-     *      min_so_far * current
+     *      min_so_far * current,
      *      current
      *    );
      *
      *    min_so_far = Min(
      *      max_so_far * current,
-     *      min_so_far * current
+     *      min_so_far * current,
      *      current
      *    );
      *
