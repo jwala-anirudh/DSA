@@ -37,7 +37,7 @@ public class Problem02 {
      *      else
      *          calculate profit ===> "price" on that day    minus    "min_value"
      *
-     *  3) Compute max_profit = max( max_profit, profit)
+     *  3) Compute max_profit = max(max_profit, profit)
      *
      *
      *  TC: O(N)
