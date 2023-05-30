@@ -8,9 +8,7 @@ public class LeetCode485 {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 1) {
                 countOfOnes++;
-                if (countOfOnes > maxValue) {
-                    maxValue = countOfOnes;
-                }
+                maxValue = Math.max(countOfOnes, maxValue);
             } else {
                 countOfOnes = 0;
             }
