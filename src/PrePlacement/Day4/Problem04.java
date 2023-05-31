@@ -4,6 +4,15 @@ package PrePlacement.Day4;
  * Richest Customer Wealth
  */
 public class Problem04 {
+    /*
+     * Algorithm
+     * =============
+     * 1) Calculate row sum for each row
+     * 2) Return row with max sum
+     *
+     * TC: O(M * N)
+     * SC: O(1)
+     */
     public int maximumWealth(int[][] accounts) {
         int richestCustomerWealth = 0;
 

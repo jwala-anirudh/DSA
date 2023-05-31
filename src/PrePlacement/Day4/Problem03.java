@@ -24,15 +24,15 @@ public class Problem03 {
      *        m be no. of rows
      *
      * Iterate on each row of the matrix &
-     * find the index of 1st -ve element (left)
+     * find the index of 1st -ve element ("left" pointer)
      *
      * 3) All elements from (left to n) will be -ve
      * Therefore, row is in decreasing order
      *
      * Increment count by (n - left)
      *
-     * TC: O(log N) --> M rows
-     *     ---> M * O(log N)
+     * TC: O(log N) over M no. of rows
+     * ---> Total: M * O(log N)
      * SC: O(1)
      */
     public int countNegatives(int[][] grid) {
