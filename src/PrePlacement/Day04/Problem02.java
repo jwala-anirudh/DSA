@@ -1,4 +1,4 @@
-package PrePlacement.Day4;
+package PrePlacement.Day04;
 
 /**
  * Diagonal matrix sum

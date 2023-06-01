@@ -1,4 +1,4 @@
-package PrePlacement.Day5;
+package PrePlacement.Day05;
 
 /**
  * Toeplitz Matrix

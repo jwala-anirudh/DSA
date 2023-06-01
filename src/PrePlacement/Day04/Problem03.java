@@ -1,4 +1,4 @@
-package PrePlacement.Day4;
+package PrePlacement.Day04;
 
 /**
  * Find the total count of negative numbers in a non-increasing

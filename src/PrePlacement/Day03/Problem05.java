@@ -1,4 +1,4 @@
-package PrePlacement.Day3;
+package PrePlacement.Day03;
 
 /**
  * Given an integer array nums, rotate the array to the right by k steps, where k is

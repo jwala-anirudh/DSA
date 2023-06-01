@@ -1,4 +1,4 @@
-package PrePlacement.Day3;
+package PrePlacement.Day03;
 
 public class Problem06 {
     /*

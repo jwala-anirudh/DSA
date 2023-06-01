@@ -1,4 +1,4 @@
-package PrePlacement.Day3;
+package PrePlacement.Day03;
 
 /**
  * A permutation of an array of integers is an arrangement of its members into a

@@ -1,4 +1,4 @@
-package PrePlacement.Day5;
+package PrePlacement.Day05;
 
 import java.util.Collections;
 import java.util.HashMap;

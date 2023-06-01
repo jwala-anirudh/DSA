@@ -1,4 +1,4 @@
-package PrePlacement.Day3;
+package PrePlacement.Day03;
 
 /**
  * Given an array arr[] of distinct elements size N that is sorted and then around an

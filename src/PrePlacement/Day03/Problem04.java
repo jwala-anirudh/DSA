@@ -1,4 +1,4 @@
-package PrePlacement.Day3;
+package PrePlacement.Day03;
 
 /**
  * Given an array nums with n objects colored red, white, or blue, sort them in-place

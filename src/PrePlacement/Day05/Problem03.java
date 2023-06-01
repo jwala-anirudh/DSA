@@ -1,4 +1,4 @@
-package PrePlacement.Day5;
+package PrePlacement.Day05;
 
 /**
  * Rotate matrix by 90 degrees
