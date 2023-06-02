@@ -2,7 +2,8 @@
 
 Welcome to the Java Data Structures and Algorithms repository!
 
-## TLDR; check `src` folder for code
+### TLDR;
+### All leetcode questions solved are [available here](https://github.com/jwala-anirudh/DSAinJava/tree/master/src/Leetcode)
 
 This repository contains a collection of Data Structures and Algorithms implemented in Java, along with LeetCode solutions and personal learning notes. All the code in this repository is open-source and available for anyone to use or contribute to.
 
