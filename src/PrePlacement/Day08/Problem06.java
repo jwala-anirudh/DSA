@@ -1,8 +1,29 @@
-package Leetcode;
+package PrePlacement.Day08;
 
-public class LeetCode345 {
-
-    // Approach 1
+// Reverse vowels of a string
+public class Problem06 {
+    /*
+     * Algorithm
+     * ===============
+     * 1) Maintain 2 pointers
+     *      left = 0
+     *      right = n - 1, at the end of string
+     *
+     * 2) Keep incrementing left-pointer till it points
+     * to a vowel
+     *
+     * 3) Keep decrementing right pointer till it points
+     * to a vowel
+     *
+     * 4) Swap values at left & right
+     *
+     * 5) Increment left, decrement right
+     *
+     * 6) Return the string value
+     *
+     * TC: O(N)
+     * SC: O(1)
+     */
     private boolean isVowel(char ch) {
         return ch == 'a' || ch == 'e' || ch == 'i'
                 || ch == 'o' || ch == 'u' || ch == 'A'
@@ -41,39 +62,5 @@ public class LeetCode345 {
         }
 
         return new String(values);
-    }
-
-    // Approach 2
-    public String reverseVowels2(String str) {
-        final String vowels = "AEIOUaeiou";
-        StringBuilder sb = new StringBuilder(str);
-
-        int start = 0;
-        int end = str.length() - 1;
-
-        while (start < end) {
-            while (
-                    start < end &&
-                            !vowels.contains("" + sb.charAt(start))
-            ) {
-                ++start;
-            }
-
-            while (
-                    start < end &&
-                            !vowels.contains("" + sb.charAt(end))
-            ) {
-                --end;
-            }
-
-            // Swap in string build using input string "str"
-            sb.setCharAt(start, str.charAt(end));
-            sb.setCharAt(end, str.charAt(start));
-
-            ++start;
-            --end;
-        }
-
-        return sb.toString();
     }
 }
