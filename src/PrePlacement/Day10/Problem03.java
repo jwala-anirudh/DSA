@@ -23,6 +23,10 @@ public class Problem03 {
         sumOfSubsets(arr, result, left + 1, right, sum);
     }
 
+    /*
+     * TC: O(2^N)
+     * SC: O(N)
+     */
     ArrayList<Integer> subsetSums(ArrayList<Integer> arr, int N) {
         ArrayList<Integer> result = new ArrayList<>();
 
